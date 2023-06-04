@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- font awesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- css styles -->
+    <link rel="stylesheet" href="src/css/style.css" />
+  
+  </head>
+  <body>
+    <div class="header-top-one ">
+      <p>سجل تجاري / 4032242115</p>
+      <ul class="user">
+        <li><a href="src/html/signup.html">انشاء حساب جديد</a></li>
+        <li><a href="src/html/signin.html">تسجيل الدخول</a></li>
+      </ul>
+    </div>
+    <header class="padding">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html"><img loading="lazy" src="assets/images/logo.png" alt="whlaah-logo" /></a>
+        </div>
+        <div class="email">
+          <i class="fa-solid fa-envelope-open-text"></i>
+          <div class="email-content">
+            <p>البريد الالكتروني</p>
+            <strong>info@whlaah.com</strong>
+          </div>
+        </div>
+        <div class="contact-us">
+          <i class="fa-solid fa-phone-volume"></i>
+          <div class="contact-us-content">
+            <p>اتصل بنا</p>
+            <strong>00966594999165</strong>
+          </div>
+        </div>
+        <ul class="social">
+          <li>
+            <a
+              href="https://www.facebook.com/whlaah.adv"
+              class="fa-brands fa-facebook-f"
+              target="_blank"
+            ></a
+            ><span>Facebook</span>
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/whlaah.adv"
+              class="fa-brands fa-twitter"
+              target="_blank"
+            ></a
+            ><span>Twitter</span>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/whlaah.adv"
+              class="fa-brands fa-instagram"
+              target="_blank"
+            ></a
+            ><span>Instagram</span>
+          </li>
+          <li>
+            <a
+              href="https://www.snapchat.com/whlaah.adv"
+              class="fa-brands fa-snapchat"
+              target="_blank"
+            ></a
+            ><span>SnapChat</span>
+          </li>
+        </ul>
+      </div>
+    <div class="header-bottom">
+      <nav>
+        <a href="index.html">الرئيسية</a>
+        <a href="#about">نبذه عنا</a>
+        <a href="#services">الخدمات</a>
+        <a href="#clients">عملاؤنا</a>
+        <a href="#activities">فاعليات</a>
+        <a href="src/html/works.html">سابقة أعمال</a>
+        <a href="src/html/subscribe.html">باقة</a>
+        <a href="src/html/blog.html">المدونة</a>
+        <a href="src/html/contact.html">اتصل بنا</a>  
+    </nav>      
+    <i class="fa-solid fa-bars hamburger"></i>
+
+    <div class="shopping-cart">
+        <span>سلة مشتريات</span>
+        <div class="cart">
+          <span>0</span>
+          <i class="fa-solid fa-basket-shopping"></i>     
+        </div>
+    </div>         
+  </div>
+    
+    </header>
+    <!-- the swiper images of the main content of the website -->
+    <section class="slider">
+      <div class="swiper mySwiper swiper-images">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-image">
+            <img loading="lazy" src="assets/images/slider1.jpg" loading="lazy" />
+          </div>
+          <div class="swiper-slide swiper-image">
+            <img loading="lazy" src="assets/images/slider2.jpg" loading="lazy" />
+          </div>
+          <div class="swiper-slide swiper-image">
+            <img loading="lazy" src="assets/images/slider3.png" loading="lazy" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+    </section>
+
+    <!-- ======================================Activities========================================= -->
+
+    <main class="activities padding" id="activities">
+      <div class="section-title">
+        <h2>فعاليات المملكة العربية السعودية</h2>
+        <div class="animate-border"></div>
+      </div>
+      <div class="activities-container">
+        <div class="activities-categories">
+          <p>تصنيف بحسب نوع الفعالية</p>
+          <ul class="categories">
+            <li  data-cat="funny">
+              <div class="image">
+                <img loading="lazy"
+                  src="assets/images/entertainment-events.png"
+                  alt="entertainment-events"
+                />
+              </div>
+              <p  >الفاعليات الترفيهية</p>
+            </li>
+            <li data-cat="healthy">
+              <div class="image">
+                <img loading="lazy"
+                  src="assets/images/medical-events.png"
+                  alt="medical-events"
+                />
+              </div>
+              <p>الفاعليات الصحية</p>
+            </li>
+            <li data-cat="discounts">
+              <div class="image">
+                <img loading="lazy"
+                  src="assets/images/discount-event.png"
+                  alt="deiscount-events"
+                />
+              </div>
+              <p>أوقات الخصومات</p>
+            </li >
+            <li data-cat="educational">
+              <div class="image">
+                <img loading="lazy"
+                  src="assets/images/education-event.jpg"
+                  alt="educatoin-events"
+                />
+              </div>
+              <p>لفعاليات التعليمية</p>
+            </li>
+          </ul>
+        </div>
+        <div class="activities-number">
+          <div class="number">
+            <p>عدد الفاعليات للشهر الحالي</p>
+            <span>(0)</span>
+          </div>
+          <div class="category">
+            <p>الفئة</p>
+            <select id="category">
+              <option value="all">الكل</option>
+              <option value="funny">الترفيهية</option>
+              <option value="healthy">الفاعليات الصحية</option>
+              <option value="discounts">أوقات الخصومات</option>
+              <option value="educational">الفعاليات التعليمية</option>
+            </select>
+          </div>
+        </div>
+<!-- the all activities cards -->
+      <section class="activities-content">
+           <!-- Swiper -->
+  <div class="swiper mySwiper-activities ">
+    <div class="swiper-wrapper">
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+      </section>
+    </main>
+    <!-- ======================================about========================================= -->
+    <section class="about" id="about">
+      <h2>لماذا وهلة ؟</h2>
+      <div class="section-title">
+        <h2>إدارة التصميم الرقمي</h2>
+        <div class="animate-border"></div>
+      </div>
+      <p>
+        ﻣﺆﺳﺴـــﺔ راﺋـــﺪة ﻓـــﻲ الخدﻣـــﺎت اﻹﻋﻼﻧﻴـــﺔ واﻹﻟﻴﻜﺘﺮوﻧﻴـــﺔ، ﻧﻌﻤﻞ ﻋﻠﻰ
+        ﺑـــﺚ روح اﻟﺪﻋﺎﻳﺔ اﻹﺑﺪاﻋﻴﺔ ﻣﻦ ﺧﻼل ﺗﺼﻤﻴﻤﺎت ﻓﻨﻴﺔ إﺑﺪاﻋﻴﺔ وﻣﺤﺘـــﻮى رﻗﻤـــﻲ
+        ﻣﺒﺘﻜـــﺮ يمكن ﻧﺸـــﺮﻫﻤﺎ ﻋﻦ ﻃﺮﻳـــﻖ اﻟﻘﻨـــﻮات اﻟﺮﻗﻤﻴـــﺔ اﻟﻤﺨﺘﻠﻔﺔ بما
+        ﻓﻴﻬﺎ ﻣﻨﺼـــﺎت اﻟﺘﻮاﺻـــﻞ اﻻﺟﺘﻤﺎﻋﻲ ﺣﻴـــﺚ نمتلك ﻓﺮﻳـــﻖ ﻋﻤﻞ ﺗﻘﻨـــﻲ
+        وإداري ذو ﺧﺒﺮة ﻋﺎﻟﻴﺔ ﻓﻲ ﻣﺠﺎل اﻟﺘﺴﻮﻳﻖ اﻟﺮﻗﻤﻲ
+      </p>
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="img loading="lazy"">
+            <img loading="lazy" src="assets/images/about-1.png" alt="graphic-desgin" />
+          </div>
+          <h2>تصميم جرافيك</h2>
+        </div>
+        <div class="about-card">
+          <div class="img loading="lazy"">
+            <img loading="lazy" src="assets/images/about-2.png" alt="social-media" />
+          </div>
+          <h2>سوشيال ميديا</h2>
+        </div>
+        <div class="about-card">
+          <div class="img loading="lazy"">
+            <img loading="lazy" src="assets/images/about-3.png" alt="motion-graphics" />
+          </div>
+          <h2>موشن جرافيك</h2>
+        </div>
+        <div class="about-card">
+          <div class="img loading="lazy"">
+            <img loading="lazy" src="assets/images/about-4.png" alt="marketing" />
+          </div>
+          <h2>تسويق إلكتروني</h2>
+        </div>
+        <div class="about-card">
+          <div class="img loading="lazy"">
+            <img loading="lazy" src="assets/images/about-5.png" alt="content-wrtier" />
+          </div>
+          <h2>كتابة محتوى</h2>
+        </div>
+        <div class="about-card">
+          <div class="img loading="lazy"">
+            <img loading="lazy" src="assets/images/about-6.png" alt="products-take" />
+          </div>
+          <h2>تصوير منتجات</h2>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================experiences========================================= -->
+    <section class="experiences nums" id="about">
+      <div class="counter-element">
+        <img loading="lazy" src="assets/images/ico1.png" alt="experience-years" />
+        <span class="num" data-goal="13">0</span>
+        <p>عدد سنيين الخبرة</p>
+      </div>
+      <div class="counter-element">
+        <img loading="lazy" src="assets/images/ico2.png" alt="experience-years" />
+        <span class="num" data-goal="200">0</span>
+        <p>عدد العملاء</p>
+      </div>
+      <div class="counter-element">
+        <img loading="lazy" src="assets/images/ico3.png" alt="experience-years" />
+        <span class="num" data-goal="65">0</span>
+        <p>عدد الخدمات</p>
+      </div>
+      <div class="counter-element">
+        <img loading="lazy" src="assets/images/ico4.png" alt="experience-years" />
+        <span class="num" data-goal="8950">0</span>
+        <p>عدد التصميمات</p>
+      </div>
+    </section>
+    <!-- ======================================services========================================= -->
+    <section class="services" id="services">
+      <div class="section-title">
+        <h2>أعمالنا الإلكترونية</h2>
+        <div class="animate-border"></div>
+      </div>
+      <p>We will give you fresh and innovative creative ideas</p>
+      <p>سنقدم لك وفرة من الأفكار التي ستجعل نشاط ينمو أسرع</p>
+      <div class="services-swiper">
+        <div class="swiper mySwiper-services">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-1.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم الإنفوجرافيك</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-2.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم قوائم الطعام</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-3.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم الهوية البصرية</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-4.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم بروفايل للمنشأة</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-5.png" alt="" />
+              </div>
+              <a href="design.html">أعمال الموشن جرافيك</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-6.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم الشعارات</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-7.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم البوستات</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-8.png" alt="" />
+              </div>
+              <h2>تصوير المنتجات</h2>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-8.png" alt="" />
+              </div>
+              <a href="design.html">تصوير المنتجات</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-9.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم التقارير السنوية</a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image">
+                <img loading="lazy" src="assets/images/service-10.png" alt="" />
+              </div>
+              <a href="design.html">تصاميم الهوية الإلكترونية</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================================================================================================================================works-prev========================================================================================================================= -->
+    <section class="works-prev" id="portfolio">
+      <div class="section-title">
+        <h2>سابقة الأعمال</h2>
+        <div class="animate-border"></div>
+      </div>
+      <div class="works-slider">
+        <div class="wrapper">
+          <i class="fa-solid fa-right-long right-arrow"></i>
+          <div class="carousel">
+            <img src="assets/images/works1.jpg" alt="works-1">
+            <img src="assets/images/works2.jpg" alt="works-1">
+            <img src="assets/images/works3.jpg" alt="works-1">
+            <img src="assets/images/works4.jpg" alt="works-1">
+            <img src="assets/images/works5.jpg" alt="works-1">
+            <img src="assets/images/works6.jpg" alt="works-1">
+            <img src="assets/images/works7.jpg" alt="works-1">
+            <img src="assets/images/works8.jpg" alt="works-1">
+            <img src="assets/images/works9.jpg" alt="works-1">
+            <img src="assets/images/works10.jpg" alt="works-1">
+            <img src="assets/images/works11.jpg" alt="works-1">
+            <img src="assets/images/works12.jpg" alt="works-1">
+            <img src="assets/images/works13.jpg" alt="works-1">
+            <img src="assets/images/works14.jpg" alt="works-1">
+            <img src="assets/images/works15.jpg" alt="works-1">
+            <img src="assets/images/works16.jpg" alt="works-1">
+          </div>
+          <i class="fa-solid fa-left-long left-arrow"></i>
+        </div>
+          <div class="preview-box">
+            <div class="backdrop-filter"></div>
+            <div class="preview-details">
+              <span class="title">
+                صورة رقم <p class="current-img"></p> من <p class="total-imgs"></p>
+              </span>
+              <span class="fa-solid fa-xmark x-mark"></span>
+            </div>
+            <div class="img-box">
+              <div class="slide prev">
+                <span class="fa-solid fa-left-long"></span>
+              </div>
+              <div class="slide next">
+                <span class="fa-solid fa-right-long"></span>
+              </div>
+              <img src="assets/images/works1.jpg" alt="works1">
+              <!-- the end of the img-box -->
+            </div>
+            <!-- the end of the preview-box -->
+          </div>
+        <!-- the end of the works-slider -->      
+      </div>
+    </section>
+    <!-- ===================================================
+    =========================the testimonials section=======
+    ==================================================== -->
+    <section class="testimonial" id="testimonials">
+      <!-- the testimonials-shapes -->
+      <div class="section-title">
+        <h2>آراء عملاؤنا</h2>
+        <div class="animate-border"></div>
+      </div>
+      <p>ارائكم وتعليقاتكم تعطينا فرصة للاستمرار في التطوير</p>
+      <!-- ============================================================================
+        ====================================the cards of the testimonials============== -->
+      <div class="swiper testimonial-mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide testimonial-card">
+            <div class="test-img loading="lazy"">
+              <img loading="lazy" src="assets/images/client1-review.jpg" alt="client-review" />
+            </div>
+            <h3>
+              شركة من أفضل الشركات في التعامل والإلتزام في تسليم الأعمال في
+              المواعيد المحددة لها بأعلى جوده ممكنه
+            </h3>
+            <h3>شريف طارق</h3>
+            <p>مهندس ميكانيكا قوى</p>
+          </div>
+          <div class="swiper-slide testimonial-card">
+            <div class="test-img loading="lazy"">
+              <img loading="lazy" src="assets/images/client2-review.jpg" alt="client-review" />
+            </div>
+            <h3>
+              شركة من أفضل الشركات في التعامل والإلتزام في تسليم الأعمال في
+              المواعيد المحددة لها بأعلى جوده ممكنه
+            </h3>
+            <h3>شريف طارق</h3>
+            <p>مهندس ميكانيكا قوى</p>
+          </div>
+          <div class="swiper-slide testimonial-card">
+            <div class="test-img loading="lazy"">
+              <img loading="lazy" src="assets/images/client3-review.jpg" alt="client-review" />
+            </div>
+            <h3>
+              شركة من أفضل الشركات في التعامل والإلتزام في تسليم الأعمال في
+              المواعيد المحددة لها بأعلى جوده ممكنه
+            </h3>
+            <h3>شريف طارق</h3>
+            <p>مهندس ميكانيكا قوى</p>
+          </div>
+          <div class="swiper-slide testimonial-card">
+            <div class="test-img loading="lazy"">
+              <img loading="lazy" src="assets/images/client4-review.jpg" alt="client-review" />
+            </div>
+            <h3>
+              شركة من أفضل الشركات في التعامل والإلتزام في تسليم الأعمال في
+              المواعيد المحددة لها بأعلى جوده ممكنه
+            </h3>
+            <h3>شريف طارق</h3>
+            <p>مهندس ميكانيكا قوى</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================================clients========================================= -->
+    <section class="clients" id="clients">
+      <div class="section-title">
+        <h2>عملاؤنا</h2>
+        <div class="animate-border"></div>
+      </div>
+      <p>نتشرف بكم لكونكم جزء من نجاحنا</p>
+      <div class="clients-swiper">
+        <div class="swiper mySwiper-clients">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-1.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-2.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-3.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-4.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-5.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-6.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-7.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-8.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-9.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-10.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-slide client">
+              <div class="client-image">
+                <img loading="lazy" src="assets/images/client-11.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Swiper JS -->
+    <!-- -----------------------------------------------------------The footer part -->
+    <footer>
+      <div class="footer-container-1">
+        <div class="details">
+          <h3>وهلة للدعاية والإعلان والتسويق الرقمي</h3>
+          <li>
+            <i class="fa-solid fa-location-dot"></i> 6448 طريق وادي وج، الشرقية،
+            الطائف 26523
+          </li>
+          <li>
+            <i class="fa-solid fa-phone-volume"></i
+            ><a href="tel:00966594999165">00966594999165</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope-open-text"></i
+            ><a href="mailto:info@whlaah.com">info@whlaah.com</a>
+          </li>
+          <div class="social footer-social">
+            <a
+              href="https://www.facebook.com/whlaah.adv"
+              class="fa-brands fa-facebook-f"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.twitter.com/whlaah.adv"
+              class="fa-brands fa-twitter"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.instagram.com/whlaah.adv"
+              class="fa-brands fa-instagram"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.snapchat.com/whlaah.adv"
+              class="fa-brands fa-snapchat"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>روابط</h3>
+          <ul class="footer-links-content">
+            <li><a href="index.thml">الرئيسية</a></li>
+            <li><a href="#about">نبذه عنا</a></li>
+            <li><a href="#services">الخدمات</a></li>
+            <li><a href="#clients">عملاؤنا</a></li>
+            <li><a href="#activites">فاعليات</a></li>
+            <li><a href="#portfolio">سابقة أعمال</a></li>
+            <li><a href="#bouquet">الباقات</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>القائمة البريدية</h3>
+          <p>اشرك معنا في النشرة الاخبارية حتي يصلك جميع الاحداث والمستجدات</p>
+          <form>
+            <input type="email" name="user-email" placeholder="البريد*"  class="footer-email"/>
+            <input type="submit" value="اشتراك" class="footer-subscribe" />
+          </form>
+        </div>
+      </div>
+      <div class="footer-container-2">
+        <p></p>
+        <ul class="policy">
+          <li><a href="privacy.html">سياسية الخصوصية</a></li>
+          <li><a href="quality.html">سياسة الجودة</a></li>
+        </ul>
+      </div>
+    </footer>
+
+<div class="welcome-message">
+<i class="fa-solid fa-square-xmark delete-welcome"></i>
+  <h2>مرحباً بك في  <span>وهلة </span>  عالم الإمكانيات اللامتناهية ! نحن نرحب بك بذراعين مفتوحتين، ونتطلع إلى رؤية ما يمكن أن تحققه معنا.</h2>
+  <a href="src/html/signup.html">دعنا نبدأ </a>
+</div>
+    <!-- the spinner of links-->
+        <div class="spinner">
+      <span class="loader"></span>
+    </div>    <!-- the spinner of links-->
+        <div class="spinner-body">
+          <h5>اللهم صل وسلم وبارك عليك يا رسول الله </h5>
+          <h2>وهلة للتسويق الإلكتروني</h2>
+      <span class="loader-body"></span>
+    </div>
+    <!-- the cookies part -->
+  <!-- the beginning  of the cookie section  part -->
+    <div class="cookie">
+      <div class="logo">
+        <i class="fas fa-cookie-bite"></i>
+        بياناتك
+      </div>
+      <p>
+    في "وهلة  "، نحن ملتزمون بحماية خصوصيتك وضمان جمع ومعالجة معلوماتك الشخصية وفقًا لقوانين حماية البيانات المعمول بها.
+      </p>
+      <div class="btns">
+        <button class="accept btn-white" id="accept">قبول</button>
+        <button class="decline btn-white">رفض</button>
+      </div>
+    </div>
+    <!-- the arrow up button -->
+    <i class="fa-solid fa-arrow-up-long arrow-up"></i>
+    <!-- the chatbot popup -->
+    <div class="message-chatbot">
+      <i class="fa-solid fa-comments "></i>
+    </div>
+<div class="chatbot">
+  <div class="chat-header">
+    <div class="chat-logo"> <i class="fa-solid fa-robot"></i></div>
+    <div class="chat-title">
+      هل لديك أي إستفسار ؟ 
+    </div>
+    <a href="src/html/questions.html" target="_blank">لمعرفة الأسئلة</a>
+  </div>
+  <div class="chat-body">
+   <span> يمكنك سؤاله أحد هذه الأسئلة من أنت  ، كيف حالك، السلام عليكم </span>
+  </div>
+  <div class="chat-user">
+    <div class="chat-input">
+      <input type="text" name="message" id="chat-message" autofocus>
+    </div>
+    <div class="chat-icon">
+      <i class="fa-solid fa-reply"></i>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="src/js/activitiesCards.js"></script>
+    <script src="src/js/chatbot.js"></script>
+    <script src="src/js/userreplying.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
